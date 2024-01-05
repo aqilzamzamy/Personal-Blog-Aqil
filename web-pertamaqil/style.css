@@ -1,0 +1,162 @@
+*,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+/* CONTAINER NAVIGATION BAR */
+.container-navigation {
+	height: 10vh;
+	background-color: #a81919;
+	width: 100%;
+	
+}
+.ul-navigation {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.li-navigation {
+	list-style-type: none;
+	padding: 20px;
+	margin: 40px;
+	color: white;
+	font-size: 30px;
+	font-family: Montserrat SemiBold;
+	cursor: pointer;
+}
+
+a.navigation:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	
+	transition-property: font-size;
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
+
+a.navigation:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a.navigation:hover {
+	color: black;
+	
+	font-size: 35px;
+}
+
+
+/* CONTAINER CONTENT */
+.container-content {
+	height: 80vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-contentAbout {
+	height: 260vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-intro {
+	padding: 10px;
+}
+
+img.content {
+	width: 350px;
+	margin: 15px;
+	padding: 40px;
+}
+
+p.content {
+	font-family: Bahnschrift Light;
+	font-size: 20px;
+	margin: 16px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+.content-intro {
+
+}
+
+button.content {
+	background-color: transparent;
+	border: 2px solid black;
+	font-size: 20px;
+	font-family: Futura;
+	margin: 17px;
+	line-height: 2.5;
+	cursor: pointer;
+	text-decoration: none;
+		
+	transition: all 0.5s ease;
+}
+
+button.content:link {
+	color: solid-black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+button.content:visited {
+	color: solid black;
+	text-decoration: none;
+}
+
+button.content:hover {
+	transform: translate(0px, -5px);
+	background-color: black;
+	color: white;
+}
+
+.contentAbout {
+
+	
+}
+p.content-about {
+	font-family: Bahnschrift Light;
+	font-size:25px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	
+	text-align: center;
+	transform: translate(0px, 30px);
+}
+
+img.content-about {
+	transform:translate(60, -30%);
+	width: 500px;
+	margin: 40px;
+	padding: 160px;
+}
+
+/* CONTAINER FOOTER */
+.container-footer {
+	height: 10vh;
+	background-color: #333333; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1.container-footer {
+	color: white;
+	font-family: Bahnschrift Light; 
+	font-size: 20px;
+}
